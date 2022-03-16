@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <title>Cadastro</title>
+</head>
+  
+<body style="background-color:#B22222;color:black">
+  <h1>CrossFit Games</h1>
+  <hr>
+  <a href="index.html">Voltar</a> 
+  
+  <h2>Preencha com seus dados:</h2>
+
+  <form>
+    <label for="nome">Nome Completo:</label><br>
+    <input type="text" id="nome"
+      required placeholder="Digite seu nome">
+  </br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" 
+      required placeholder="Digite seu email">
+  </br>
+        
+    <label for="equipe">Quantidade de integrantes da equipe:</label><br>
+    <input type="number" id="equipe"
+      required min=1 max=4>
+  </br>
+
+    <label for="categoria">Categoria:</label><br>
+    <input type="text" id="categoria"
+      required placeholder="Digite sua categoria">
+  </br>
+
+    <label for="data">Quual dia você competirá?(28/05 ou 29/05)</label><br>
+  <input type="date" id="data">
+  </br>
+    
+  </form>
+  
+</body>
+</html>
